@@ -1,0 +1,36 @@
+/* CategoryPage.css */
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Align the button to the right */
+    margin-bottom: 20px; /* Space below the button */
+}
+
+.create-task-button {
+    margin-top: -20px; /* Adjust the button position */
+}
+
+.container {
+    display: grid; /* Use grid for layout */
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 20px; /* Space between columns */
+    margin: 20px 0; /* Space around the container */
+}
+
+.column {
+    padding: 20px; /* Padding inside each column */
+    background-color: #101214; /* Optional: Background color for columns */
+    border-radius: 8px; /* Optional: Rounded corners */
+    color: white; /* Text color for column content */
+}
+
+.column-heading {
+    font-family: Urbanist; /* Apply font family */
+    font-size: 24px; /* Font size */
+    font-weight: 700; /* Font weight */
+    line-height: 28.8px; /* Line height */
+    letter-spacing: 0.05em; /* Letter spacing */
+    text-align: left; /* Text alignment */
+    color: white; /* Text color for headings */
+    margin-bottom: 10px; /* Space below the heading */
+}

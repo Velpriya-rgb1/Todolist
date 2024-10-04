@@ -1,0 +1,59 @@
+/* General Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px; /* Reduced padding for a more compact look */
+  background-color: #161A1D; /* Dark background color */
+  height: 50px; /* Reduced height */
+  color: #ffffff; /* White text color */
+}
+
+/* Left Section of Navbar */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  height: 20px; /* Slightly smaller icon */
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.navbar-text {
+  color: #ffffff;
+  margin-left: 8px; /* Space between icon and text */
+  font-size: 14px; /* Slightly reduced font size */
+  font-weight: bold; /* Keep bold font */
+}
+
+/* Right Section of Navbar */
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Add Category Button Styles */
+.add-category-btn {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  color: #00A6FF; /* Blue color for text */
+  font-size: 14px; /* Reduced font size to match smaller navbar */
+  cursor: pointer;
+}
+
+.add-category-btn .plus-icon {
+  font-size: 18px; /* Slightly smaller plus icon */
+  margin-right: 5px;
+  color: #00A6FF; /* Blue color for plus icon */
+}
+
+.add-category-btn:hover {
+  color: #007ACC; /* Slightly darker blue on hover */
+}
+
+.add-category-btn:focus {
+  outline: none; /* Remove button outline on focus */
+}

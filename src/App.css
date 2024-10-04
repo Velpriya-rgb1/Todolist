@@ -1,0 +1,44 @@
+/* This sets the background color for the entire page */
+body {
+  background-color: #101214; /* Light grey background color, adjust as needed */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Optional: set a default font for the page */
+}
+
+.App {
+  min-height: 100vh; /* Ensure the App covers the full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #393737; /* Dark background color for the navbar */
+  color: #ffffff;
+}
+.content-text{
+  color: aliceblue;
+  font-size: 24px;
+  padding-left: 25px;
+}
+/* Add this in your App.css file */
+
+/* Container for General text and icons */
+.text-icon-wrapper {
+  display: flex; /* Flexbox to align items horizontally */
+  align-items: center; /* Align items vertically in the center */
+  gap: 16px; /* Optional: Adds space between the text and the icons */
+  margin-top: 24px; /* Adjusts the margin from the top */
+}
+
+.content-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff; /* Adjust the color as needed */
+  margin: 0; /* Remove any default margin */
+}
+
+
+
+/* Content container styling */
